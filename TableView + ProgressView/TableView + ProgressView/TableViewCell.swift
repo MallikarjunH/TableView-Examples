@@ -10,9 +10,19 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var emailTextField: UITextField!
+   
+    @IBOutlet weak var mobileTextField: UITextField!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        nameTextField.tag = 1
+        emailTextField.tag = 2
+        mobileTextField.tag = 3
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
