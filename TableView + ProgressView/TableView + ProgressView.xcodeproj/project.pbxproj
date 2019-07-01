@@ -12,6 +12,7 @@
 		066BE73822CA0503005CE22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066BE73622CA0503005CE22B /* Main.storyboard */; };
 		066BE73A22CA0519005CE22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066BE73922CA0519005CE22B /* Assets.xcassets */; };
 		066BE73D22CA0519005CE22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066BE73B22CA0519005CE22B /* LaunchScreen.storyboard */; };
+		066BE74522CA0965005CE22B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BE74422CA0965005CE22B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		066BE73922CA0519005CE22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		066BE73C22CA0519005CE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		066BE73E22CA0519005CE22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066BE74422CA0965005CE22B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				066BE73222CA0502005CE22B /* AppDelegate.swift */,
 				066BE73422CA0503005CE22B /* ViewController.swift */,
+				066BE74422CA0965005CE22B /* TableViewCell.swift */,
 				066BE73622CA0503005CE22B /* Main.storyboard */,
 				066BE73922CA0519005CE22B /* Assets.xcassets */,
 				066BE73B22CA0519005CE22B /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066BE74522CA0965005CE22B /* TableViewCell.swift in Sources */,
 				066BE73522CA0503005CE22B /* ViewController.swift in Sources */,
 				066BE73322CA0502005CE22B /* AppDelegate.swift in Sources */,
 			);
