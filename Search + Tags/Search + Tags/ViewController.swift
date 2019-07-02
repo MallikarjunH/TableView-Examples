@@ -20,7 +20,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     @IBOutlet weak var collectionViewInstance: UICollectionView!
     var selectedSymptom = ""
     
-    let healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","SymptomChecker","Activity","Calorie","Logs Checker","Baby","Reminder Table","Calender"]
+    let healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","Symptom Checker","Activity","Calorie","Logs Checker","Baby ","Reminder Table","Calender"]
+   // let healthToolsNamesArray = ["Body","Height","Symptom","Activity T","Calorie","Logs","Baby ","Reminder","Calender"]
     
     var symptomArray = ["test"]
     
@@ -114,16 +115,17 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         
         return cellSize */
         // return CGSize(width: CGFloat((collectionView.frame.size.width / 3) - 20), height: CGFloat(100))
+        
         let label = UILabel(frame: CGRect.zero)
         label.text = healthToolsNamesArray[indexPath.item]
         label.sizeToFit()
-        return CGSize(width: label.frame.width + 5, height: 35)
+        return CGSize(width: label.frame.width + 20 , height: 38)
         
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         
-        return UIEdgeInsets(top:0, left: 10, bottom: 2, right: 10)
+        return UIEdgeInsets(top:0, left: 2, bottom: 2, right: 2)
     }
     
     

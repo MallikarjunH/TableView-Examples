@@ -125,20 +125,33 @@
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="39"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWJ-gj-Aag">
-                                                    <rect key="frame" x="5" y="12" width="118" height="15.333333333333336"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWJ-gj-Aag">
+                                                    <rect key="frame" x="5" y="12" width="103" height="15"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="103" id="aE3-8E-OWH"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwh-un-Ool">
+                                                    <rect key="frame" x="111" y="13" width="12" height="12"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="12" id="0n6-Oy-0ku"/>
+                                                        <constraint firstAttribute="width" constant="12" id="Wii-2K-dEp"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button" image="Path"/>
+                                                </button>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.44705882349999998" green="0.74901960779999999" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="IWJ-gj-Aag" secondAttribute="bottom" constant="11.67" id="9QY-YP-HOu"/>
-                                            <constraint firstAttribute="trailing" secondItem="IWJ-gj-Aag" secondAttribute="trailing" constant="5" id="GDY-b1-bcr"/>
-                                            <constraint firstItem="IWJ-gj-Aag" firstAttribute="top" secondItem="ZiD-5x-4i9" secondAttribute="top" constant="12" id="ez2-L1-UmJ"/>
-                                            <constraint firstItem="IWJ-gj-Aag" firstAttribute="leading" secondItem="ZiD-5x-4i9" secondAttribute="leading" constant="5" id="sAA-lX-cej"/>
+                                            <constraint firstAttribute="bottom" secondItem="IWJ-gj-Aag" secondAttribute="bottom" constant="12" id="LMD-EF-xlH"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dwh-un-Ool" secondAttribute="trailing" constant="5" id="MGM-VG-u2O"/>
+                                            <constraint firstItem="IWJ-gj-Aag" firstAttribute="top" secondItem="ZiD-5x-4i9" secondAttribute="top" constant="12" id="d6p-vG-aY8"/>
+                                            <constraint firstItem="IWJ-gj-Aag" firstAttribute="leading" secondItem="ZiD-5x-4i9" secondAttribute="leading" constant="5" id="e82-va-vWV"/>
+                                            <constraint firstItem="Dwh-un-Ool" firstAttribute="top" secondItem="ZiD-5x-4i9" secondAttribute="top" constant="13" id="fDM-fF-PeS"/>
+                                            <constraint firstItem="Dwh-un-Ool" firstAttribute="leading" secondItem="IWJ-gj-Aag" secondAttribute="trailing" constant="3" id="y09-u3-P2I"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="testLabel" destination="IWJ-gj-Aag" id="lof-xJ-5Zl"/>
@@ -316,6 +329,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Path" width="10" height="10"/>
         <image name="magnifying-glass" width="16" height="16"/>
         <image name="plusImg5" width="17" height="17"/>
     </resources>

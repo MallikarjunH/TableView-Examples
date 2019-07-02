@@ -16,8 +16,8 @@ class CollectionViewCellTest: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        testLabel.numberOfLines = 0
-        testLabel.lineBreakMode = .byWordWrapping
+//        testLabel.numberOfLines = 0
+//        testLabel.lineBreakMode = .byWordWrapping
         
     }
 }
