@@ -20,8 +20,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     @IBOutlet weak var collectionViewInstance: UICollectionView!
     var selectedSymptom = ""
     
-    let healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","Symptom Checker","Activity","Calorie","Logs Checker","Baby ","Reminder Table","Calender"]
-   // let healthToolsNamesArray = ["Body","Height","Symptom","Activity T","Calorie","Logs","Baby ","Reminder","Calender"]
+   // let healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","Symptom Checker","Activity","Calorie","Logs Checker","Baby ","Reminder Table","Calender"]
+    let healthToolsNamesArray = ["Body","Height","Symptom","Activity T","Calorie","Logs","Baby ","Reminder","Calender"]
     
     var symptomArray = ["test"]
     
