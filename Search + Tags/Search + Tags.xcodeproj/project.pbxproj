@@ -12,6 +12,11 @@
 		06028B6422CB1E3F00E4D4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06028B6222CB1E3F00E4D4DD /* Main.storyboard */; };
 		06028B6622CB1E4800E4D4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06028B6522CB1E4800E4D4DD /* Assets.xcassets */; };
 		06028B6922CB1E4800E4D4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06028B6722CB1E4800E4D4DD /* LaunchScreen.storyboard */; };
+		06028B7222CB24D700E4D4DD /* CollectionviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06028B7022CB24D700E4D4DD /* CollectionviewCell.swift */; };
+		06028B7322CB24D700E4D4DD /* CollectionviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06028B7122CB24D700E4D4DD /* CollectionviewCell.xib */; };
+		06028B7522CB300B00E4D4DD /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06028B7422CB300B00E4D4DD /* SearchCell.swift */; };
+		06028B7722CB389C00E4D4DD /* TableViewCellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06028B7622CB389C00E4D4DD /* TableViewCellNew.swift */; };
+		06028B7922CB543300E4D4DD /* CollectionViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06028B7822CB543300E4D4DD /* CollectionViewCellTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		06028B6522CB1E4800E4D4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06028B6822CB1E4800E4D4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06028B6A22CB1E4800E4D4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06028B7022CB24D700E4D4DD /* CollectionviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionviewCell.swift; sourceTree = "<group>"; };
+		06028B7122CB24D700E4D4DD /* CollectionviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionviewCell.xib; sourceTree = "<group>"; };
+		06028B7422CB300B00E4D4DD /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		06028B7622CB389C00E4D4DD /* TableViewCellNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellNew.swift; sourceTree = "<group>"; };
+		06028B7822CB543300E4D4DD /* CollectionViewCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				06028B5E22CB1E3F00E4D4DD /* AppDelegate.swift */,
 				06028B6022CB1E3F00E4D4DD /* ViewController.swift */,
+				06028B7422CB300B00E4D4DD /* SearchCell.swift */,
+				06028B7022CB24D700E4D4DD /* CollectionviewCell.swift */,
+				06028B7122CB24D700E4D4DD /* CollectionviewCell.xib */,
 				06028B6222CB1E3F00E4D4DD /* Main.storyboard */,
 				06028B6522CB1E4800E4D4DD /* Assets.xcassets */,
 				06028B6722CB1E4800E4D4DD /* LaunchScreen.storyboard */,
 				06028B6A22CB1E4800E4D4DD /* Info.plist */,
+				06028B7622CB389C00E4D4DD /* TableViewCellNew.swift */,
+				06028B7822CB543300E4D4DD /* CollectionViewCellTest.swift */,
 			);
 			path = "Search + Tags";
 			sourceTree = "<group>";
@@ -124,6 +139,7 @@
 			files = (
 				06028B6922CB1E4800E4D4DD /* LaunchScreen.storyboard in Resources */,
 				06028B6622CB1E4800E4D4DD /* Assets.xcassets in Resources */,
+				06028B7322CB24D700E4D4DD /* CollectionviewCell.xib in Resources */,
 				06028B6422CB1E3F00E4D4DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06028B7922CB543300E4D4DD /* CollectionViewCellTest.swift in Sources */,
+				06028B7222CB24D700E4D4DD /* CollectionviewCell.swift in Sources */,
+				06028B7722CB389C00E4D4DD /* TableViewCellNew.swift in Sources */,
+				06028B7522CB300B00E4D4DD /* SearchCell.swift in Sources */,
 				06028B6122CB1E3F00E4D4DD /* ViewController.swift in Sources */,
 				06028B5F22CB1E3F00E4D4DD /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = "Search + Tags/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = "Search + Tags/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
