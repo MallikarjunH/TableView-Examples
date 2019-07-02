@@ -120,7 +120,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         let label = UILabel(frame: CGRect.zero)
         label.text = healthToolsNamesArray[indexPath.item]
         label.sizeToFit()
-        return CGSize(width: label.frame.width + 20 , height: 38)
+        return CGSize(width: label.frame.width + 20 , height: 40)
         
     }
     
