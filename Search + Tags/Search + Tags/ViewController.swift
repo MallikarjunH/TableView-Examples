@@ -20,8 +20,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     @IBOutlet weak var collectionViewInstance: UICollectionView!
     var selectedSymptom = ""
     
-   // let healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","Symptom Checker","Activity","Calorie","Logs Checker","Baby ","Reminder Table","Calender"]
-    let healthToolsNamesArray = ["Body","Height","Symptom","Activity T","Calorie","Logs","Baby ","Reminder","Calender"]
+    var healthToolsNamesArray = ["Body Fat Calculator","Height Predictor","Symptom Checker","Activity","Calorie","Logs Checker","Baby ","Reminder Table","Calender"]
+   // let healthToolsNamesArray = ["Body","Height","Symptom","Activity T","Calorie","Logs","Baby ","Reminder","Calender"]
     
     var symptomArray = ["test"]
     
@@ -100,8 +100,9 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        print(indexPath.item)
-        
+        print("Clicked on :\(indexPath.item) item and Value is: \(healthToolsNamesArray[indexPath.item])")
+        healthToolsNamesArray.remove(at:indexPath.item)
+        collectionViewInstance.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

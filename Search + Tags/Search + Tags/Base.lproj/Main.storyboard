@@ -144,7 +144,6 @@
                                                 </button>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" red="0.44705882349999998" green="0.74901960779999999" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="IWJ-gj-Aag" secondAttribute="bottom" constant="12" id="LMD-EF-xlH"/>
                                             <constraint firstAttribute="trailing" secondItem="Dwh-un-Ool" secondAttribute="trailing" constant="5" id="MGM-VG-u2O"/>

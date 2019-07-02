@@ -16,6 +16,7 @@ class CollectionViewCellTest: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        self.contentView.layer.cornerRadius = 15
 //        testLabel.numberOfLines = 0
 //        testLabel.lineBreakMode = .byWordWrapping
         
