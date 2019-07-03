@@ -103,6 +103,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         print("Clicked on :\(indexPath.item) item and Value is: \(healthToolsNamesArray[indexPath.item])")
         healthToolsNamesArray.remove(at:indexPath.item)
         collectionViewInstance.reloadData()
+        searchTableView.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
