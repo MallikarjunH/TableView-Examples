@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Vidal Health App needs to access Camera to upload Profile Photo.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Vidal Health App requires access to the photo library to upload Documents/Photos.</string>
 </dict>
 </plist>

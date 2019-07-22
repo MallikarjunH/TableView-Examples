@@ -12,6 +12,7 @@
 		06365F3122E03E5200D851EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06365F2F22E03E5200D851EF /* Main.storyboard */; };
 		06365F3322E03E5C00D851EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06365F3222E03E5C00D851EF /* Assets.xcassets */; };
 		06365F3622E03E5C00D851EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06365F3422E03E5C00D851EF /* LaunchScreen.storyboard */; };
+		06365F3E22E0468800D851EF /* AllTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06365F3D22E0468800D851EF /* AllTableViewCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		06365F3222E03E5C00D851EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06365F3522E03E5C00D851EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06365F3722E03E5C00D851EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06365F3D22E0468800D851EF /* AllTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTableViewCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				06365F2B22E03E5200D851EF /* AppDelegate.swift */,
 				06365F2D22E03E5200D851EF /* ViewController.swift */,
+				06365F3D22E0468800D851EF /* AllTableViewCells.swift */,
 				06365F2F22E03E5200D851EF /* Main.storyboard */,
 				06365F3222E03E5C00D851EF /* Assets.xcassets */,
 				06365F3422E03E5C00D851EF /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06365F2E22E03E5200D851EF /* ViewController.swift in Sources */,
+				06365F3E22E0468800D851EF /* AllTableViewCells.swift in Sources */,
 				06365F2C22E03E5200D851EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
