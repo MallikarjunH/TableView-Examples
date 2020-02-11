@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController {
     
     
 
@@ -17,13 +17,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        mainTableView.register(UINib(nibName: "AddaExpectedVisitorsCell", bundle: nil), forCellReuseIdentifier: "AddaExpectedVisitorsCell")
     }
 
 }
 
 
-extension AddaExpectedVisitorsListViewController: UITableViewDelegate,UITableViewDataSource {
-    
+extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,7 +38,7 @@ extension AddaExpectedVisitorsListViewController: UITableViewDelegate,UITableVie
         
             
 
-            let cell = tableView.dequeueReusableCell(withIdentifier: "AddaExpectedVisitorsCellId", for: indexPath) as! AddaExpectedVisitorsCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "AddaExpectedVisitorsCell", for: indexPath) as! AddaExpectedVisitorsCell
         
             return cell
             
@@ -45,7 +46,7 @@ extension AddaExpectedVisitorsListViewController: UITableViewDelegate,UITableVie
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
        
-            return 240.0
+            return 195.0
     }
     
 
