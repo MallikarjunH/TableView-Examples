@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eMN-Zc-vXl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Selct Options-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSDropdown_RSSelectionMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Px9-dd-Dz4">
+                                <rect key="frame" x="20" y="138" width="374" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="zw6-8V-3gU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <state key="normal" title="1. Simple view with Button"/>
+                                <connections>
+                                    <segue destination="8yy-st-VdS" kind="show" id="w27-eB-hmK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0m-tn-gUM">
+                                <rect key="frame" x="20" y="209" width="374" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="ucP-WU-eIQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <state key="normal" title="2. TableViewCell with TableViewController"/>
+                                <connections>
+                                    <segue destination="rRx-CT-vXT" kind="show" id="B3H-t7-phm"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s0m-tn-gUM" firstAttribute="top" secondItem="Px9-dd-Dz4" secondAttribute="bottom" constant="15" id="2tX-2G-rtn"/>
+                            <constraint firstItem="Px9-dd-Dz4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="P5G-b0-OhR"/>
+                            <constraint firstItem="s0m-tn-gUM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qzm-Qb-igb"/>
+                            <constraint firstItem="Px9-dd-Dz4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="cBw-g0-qLL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Px9-dd-Dz4" secondAttribute="trailing" constant="20" id="fua-hI-1AN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s0m-tn-gUM" secondAttribute="trailing" constant="20" id="xdh-XJ-pel"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Selct Options" id="Hoo-wh-Ocb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1005.7971014492755" y="88.392857142857139"/>
+        </scene>
+        <!--View Controller1-->
+        <scene sceneID="Ais-jR-79G">
+            <objects>
+                <viewController storyboardIdentifier="ViewController1" id="8yy-st-VdS" customClass="ViewController1" customModule="iOSDropdown_RSSelectionMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ReW-x6-ImJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcz-ca-OBI">
+                                <rect key="frame" x="128.5" y="168" width="157" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Due-XX-7AQ"/>
+                                </constraints>
+                                <state key="normal" title="Show DropDown Menu"/>
+                                <connections>
+                                    <action selector="showDropDownButtonAction:" destination="8yy-st-VdS" eventType="touchUpInside" id="8Jm-Fb-ygl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mIM-43-uze"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gcz-ca-OBI" firstAttribute="centerX" secondItem="ReW-x6-ImJ" secondAttribute="centerX" id="TMw-y9-3BJ"/>
+                            <constraint firstItem="gcz-ca-OBI" firstAttribute="top" secondItem="mIM-43-uze" secondAttribute="top" constant="80" id="v7z-TK-JWN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lgi-Sa-kDC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzp-4i-ALb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1958" y="75"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="ThZ-YC-EBp">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="rRx-CT-vXT" customClass="ViewController2" customModule="iOSDropdown_RSSelectionMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="csv-QG-hZI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="so7-8R-Mgj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g0I-tO-Sun"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="357-tF-QEE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1958" y="773"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BEI-pk-OUX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eMN-Zc-vXl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aHN-mB-pgV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Pfn-qG-0ZU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfM-Qp-nv5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="88.392857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftMultiSelect (0.2.4)
+
+DEPENDENCIES:
+  - SwiftMultiSelect
+
+SPEC REPOS:
+  trunk:
+    - SwiftMultiSelect
+
+SPEC CHECKSUMS:
+  SwiftMultiSelect: 50e4c628935492d30d3c45ab88901502c3eb52f4
+
+PODFILE CHECKSUM: 937766e1b59cd31d0e3928aaa1ba91aaef688c7e
+
+COCOAPODS: 1.10.1

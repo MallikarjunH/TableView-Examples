@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F02B4983AC2B2ACBB86F216 /* Pods_iOSDropdown_RSSelectionMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D00EEB3BB2099B5E225252 /* Pods_iOSDropdown_RSSelectionMenu.framework */; };
 		C1A6F1CB2653C05E0026DB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6F1CA2653C05E0026DB62 /* AppDelegate.swift */; };
 		C1A6F1CD2653C05E0026DB62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6F1CC2653C05E0026DB62 /* SceneDelegate.swift */; };
 		C1A6F1CF2653C05E0026DB62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6F1CE2653C05E0026DB62 /* ViewController.swift */; };
 		C1A6F1D22653C05E0026DB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A6F1D02653C05E0026DB62 /* Main.storyboard */; };
 		C1A6F1D42653C0610026DB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A6F1D32653C0610026DB62 /* Assets.xcassets */; };
 		C1A6F1D72653C0610026DB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A6F1D52653C0610026DB62 /* LaunchScreen.storyboard */; };
+		C1A6F1E42653C3180026DB62 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6F1E32653C3180026DB62 /* ViewController1.swift */; };
+		C1A6F1E72653C3220026DB62 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A6F1E62653C3220026DB62 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B79E7D54A980752E7D4FD23 /* Pods-iOSDropdown-RSSelectionMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDropdown-RSSelectionMenu.debug.xcconfig"; path = "Target Support Files/Pods-iOSDropdown-RSSelectionMenu/Pods-iOSDropdown-RSSelectionMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		99D00EEB3BB2099B5E225252 /* Pods_iOSDropdown_RSSelectionMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDropdown_RSSelectionMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A6F1C72653C05E0026DB62 /* iOSDropdown-RSSelectionMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSDropdown-RSSelectionMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A6F1CA2653C05E0026DB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1A6F1CC2653C05E0026DB62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		C1A6F1D32653C0610026DB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A6F1D62653C0610026DB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A6F1D82653C0610026DB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A6F1E32653C3180026DB62 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		C1A6F1E62653C3220026DB62 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C61DECC0FE0AF45D00A81635 /* Pods-iOSDropdown-RSSelectionMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDropdown-RSSelectionMenu.release.xcconfig"; path = "Target Support Files/Pods-iOSDropdown-RSSelectionMenu/Pods-iOSDropdown-RSSelectionMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F02B4983AC2B2ACBB86F216 /* Pods_iOSDropdown_RSSelectionMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A05465D40571F9C77DEE10C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D00EEB3BB2099B5E225252 /* Pods_iOSDropdown_RSSelectionMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FF87DB69DF24B729EBEE748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B79E7D54A980752E7D4FD23 /* Pods-iOSDropdown-RSSelectionMenu.debug.xcconfig */,
+				C61DECC0FE0AF45D00A81635 /* Pods-iOSDropdown-RSSelectionMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1A6F1BE2653C05E0026DB62 = {
 			isa = PBXGroup;
 			children = (
 				C1A6F1C92653C05E0026DB62 /* iOSDropdown-RSSelectionMenu */,
 				C1A6F1C82653C05E0026DB62 /* Products */,
+				9FF87DB69DF24B729EBEE748 /* Pods */,
+				4A05465D40571F9C77DEE10C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +88,8 @@
 				C1A6F1CC2653C05E0026DB62 /* SceneDelegate.swift */,
 				C1A6F1CE2653C05E0026DB62 /* ViewController.swift */,
 				C1A6F1D02653C05E0026DB62 /* Main.storyboard */,
+				C1A6F1E32653C3180026DB62 /* ViewController1.swift */,
+				C1A6F1E62653C3220026DB62 /* ViewController2.swift */,
 				C1A6F1D32653C0610026DB62 /* Assets.xcassets */,
 				C1A6F1D52653C0610026DB62 /* LaunchScreen.storyboard */,
 				C1A6F1D82653C0610026DB62 /* Info.plist */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1A6F1DB2653C0610026DB62 /* Build configuration list for PBXNativeTarget "iOSDropdown-RSSelectionMenu" */;
 			buildPhases = (
+				9FABE4D8E2C57189796ED95C /* [CP] Check Pods Manifest.lock */,
 				C1A6F1C32653C05E0026DB62 /* Sources */,
 				C1A6F1C42653C05E0026DB62 /* Frameworks */,
 				C1A6F1C52653C05E0026DB62 /* Resources */,
+				BBCB6E2CF5324D5E97ACC187 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +164,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FABE4D8E2C57189796ED95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSDropdown-RSSelectionMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCB6E2CF5324D5E97ACC187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSDropdown-RSSelectionMenu/Pods-iOSDropdown-RSSelectionMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSDropdown-RSSelectionMenu/Pods-iOSDropdown-RSSelectionMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSDropdown-RSSelectionMenu/Pods-iOSDropdown-RSSelectionMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1A6F1C32653C05E0026DB62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A6F1E72653C3220026DB62 /* ViewController2.swift in Sources */,
+				C1A6F1E42653C3180026DB62 /* ViewController1.swift in Sources */,
 				C1A6F1CF2653C05E0026DB62 /* ViewController.swift in Sources */,
 				C1A6F1CB2653C05E0026DB62 /* AppDelegate.swift in Sources */,
 				C1A6F1CD2653C05E0026DB62 /* SceneDelegate.swift in Sources */,
@@ -283,6 +359,7 @@
 		};
 		C1A6F1DC2653C0610026DB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B79E7D54A980752E7D4FD23 /* Pods-iOSDropdown-RSSelectionMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +379,7 @@
 		};
 		C1A6F1DD2653C0610026DB62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61DECC0FE0AF45D00A81635 /* Pods-iOSDropdown-RSSelectionMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
