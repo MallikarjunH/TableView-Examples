@@ -13,6 +13,8 @@
 		C13D0B60265BD1020007A496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13D0B5E265BD1020007A496 /* Main.storyboard */; };
 		C13D0B62265BD1080007A496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13D0B61265BD1080007A496 /* Assets.xcassets */; };
 		C13D0B65265BD1080007A496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13D0B63265BD1080007A496 /* LaunchScreen.storyboard */; };
+		C1BEA14E2660DC91004C6BB9 /* SK-traditional-medicine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C1BEA14D2660DC91004C6BB9 /* SK-traditional-medicine.pdf */; };
+		C1BEA1512660E273004C6BB9 /* ThumbnailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BEA1502660E273004C6BB9 /* ThumbnailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C13D0B61265BD1080007A496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13D0B64265BD1080007A496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C13D0B66265BD1080007A496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BEA14D2660DC91004C6BB9 /* SK-traditional-medicine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SK-traditional-medicine.pdf"; sourceTree = "<group>"; };
+		C1BEA1502660E273004C6BB9 /* ThumbnailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C13D0B58265BD1020007A496 /* AppDelegate.swift */,
 				C13D0B5A265BD1020007A496 /* SceneDelegate.swift */,
 				C13D0B5C265BD1020007A496 /* ViewController.swift */,
+				C1BEA1502660E273004C6BB9 /* ThumbnailTableViewCell.swift */,
+				C1BEA14D2660DC91004C6BB9 /* SK-traditional-medicine.pdf */,
 				C13D0B5E265BD1020007A496 /* Main.storyboard */,
 				C13D0B61265BD1080007A496 /* Assets.xcassets */,
 				C13D0B63265BD1080007A496 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BEA14E2660DC91004C6BB9 /* SK-traditional-medicine.pdf in Resources */,
 				C13D0B65265BD1080007A496 /* LaunchScreen.storyboard in Resources */,
 				C13D0B62265BD1080007A496 /* Assets.xcassets in Resources */,
 				C13D0B60265BD1020007A496 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			files = (
 				C13D0B5D265BD1020007A496 /* ViewController.swift in Sources */,
 				C13D0B59265BD1020007A496 /* AppDelegate.swift in Sources */,
+				C1BEA1512660E273004C6BB9 /* ThumbnailTableViewCell.swift in Sources */,
 				C13D0B5B265BD1020007A496 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
