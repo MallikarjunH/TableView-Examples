@@ -94,7 +94,24 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderTableViewCell") as? HeaderTableViewCell else {
             return UIView()
         }
-       
+        
+        /*
+        //rotate 90 degrees
+        myImageView.transform = CGAffineTransform(rotationAngle: .pi / 2)
+
+        //rotate 180 degrees
+        myImageView.transform = CGAffineTransform(rotationAngle: .pi)
+
+        //rotate 270 degrees
+        myImageView.transform = CGAffineTransform(rotationAngle: .pi * 1.5)
+        */
+        
+        cell.titleLabel.text = headerTitleArray[section]
+        
+        if headerCollaped[section] == true {
+            cell.arrowImgIcon.transform = CGAffineTransform(rotationAngle: .pi)
+        }
+ 
         cell.expandButton.tag = section
         cell.expandButton.addTarget(self, action: #selector(explandCollapseHeaderButtonClicked(sender:)), for: UIControl.Event.touchUpInside)
         

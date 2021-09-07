@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Expand Headers-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Collapsible_Table_Section" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,8 +36,8 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.up.left.and.arrow.down.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IQi-Nu-0hk">
-                                                    <rect key="frame" x="369" y="16" width="25" height="23"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donwICN1" translatesAutoresizingMaskIntoConstraints="NO" id="IQi-Nu-0hk">
+                                                    <rect key="frame" x="369" y="15" width="25" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="Cbj-NP-ROY"/>
                                                         <constraint firstAttribute="width" constant="25" id="EKx-wb-qG8"/>
@@ -62,7 +62,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="arrowImgIcon" destination="IQi-Nu-0hk" id="kyd-pP-LfX"/>
                                             <outlet property="expandButton" destination="rCI-HZ-wvM" id="cYe-zm-bG7"/>
+                                            <outlet property="titleLabel" destination="PQj-63-SaD" id="wdz-yS-oP6"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileDetailsTableViewCell" rowHeight="173" id="sV1-DR-QQB" customClass="ProfileDetailsTableViewCell" customModule="Collapsible_Table_Section" customModuleProvider="target">
@@ -181,7 +183,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ihg-pI-iFC" secondAttribute="trailing" id="hZW-x8-WEk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Gcp-Kr-loy"/>
+                    <navigationItem key="navigationItem" title="Expand Headers" id="Gcp-Kr-loy"/>
                     <connections>
                         <outlet property="mainTableView" destination="ihg-pI-iFC" id="YuU-bo-piJ"/>
                     </connections>
@@ -210,7 +212,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.up.left.and.arrow.down.right" catalog="system" width="128" height="115"/>
+        <image name="donwICN1" width="12" height="12"/>
         <image name="userICN" width="15" height="15"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
