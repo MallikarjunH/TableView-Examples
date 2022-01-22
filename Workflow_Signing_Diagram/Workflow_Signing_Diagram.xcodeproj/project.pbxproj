@@ -17,6 +17,7 @@
 		C1B28515279BD05600AD584E /* SerialWorkflowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B28514279BD05600AD584E /* SerialWorkflowCell.swift */; };
 		C1B28517279BD06800AD584E /* ParallelWorkflowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B28516279BD06800AD584E /* ParallelWorkflowCell.swift */; };
 		C1B28519279BD51500AD584E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B28518279BD51500AD584E /* HomeVC.swift */; };
+		C1B2851B279BE8B200AD584E /* ParallelWorkflowCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2851A279BE8B200AD584E /* ParallelWorkflowCell2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C1B28514279BD05600AD584E /* SerialWorkflowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialWorkflowCell.swift; sourceTree = "<group>"; };
 		C1B28516279BD06800AD584E /* ParallelWorkflowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelWorkflowCell.swift; sourceTree = "<group>"; };
 		C1B28518279BD51500AD584E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C1B2851A279BE8B200AD584E /* ParallelWorkflowCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelWorkflowCell2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				C1B28514279BD05600AD584E /* SerialWorkflowCell.swift */,
 				C1B28516279BD06800AD584E /* ParallelWorkflowCell.swift */,
+				C1B2851A279BE8B200AD584E /* ParallelWorkflowCell2.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B2851B279BE8B200AD584E /* ParallelWorkflowCell2.swift in Sources */,
 				C1B28519279BD51500AD584E /* HomeVC.swift in Sources */,
 				C1B28517279BD06800AD584E /* ParallelWorkflowCell.swift in Sources */,
 				C1B28511279BD02800AD584E /* SerialWorkflowVC.swift in Sources */,

@@ -15,7 +15,7 @@ class SerialWorkflowVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.title = "Serial Flow"
         self.mainTableView.reloadData()
     }
 

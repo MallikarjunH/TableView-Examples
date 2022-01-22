@@ -21,8 +21,8 @@ class SerialWorkflowCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         
-       // image.layer.borderWidth = 1
-      //  image.layer.masksToBounds = false
+       // statusLabel.layer.borderWidth = 1
+      //  statusLabel.layer.masksToBounds = false
         statusLabel.layer.borderColor = UIColor.green.cgColor
         statusLabel.layer.cornerRadius = statusLabel.frame.height/2
         statusLabel.clipsToBounds = true

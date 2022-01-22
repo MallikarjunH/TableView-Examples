@@ -1,5 +1,5 @@
 //
-//  ParallelWorkflowCell.swift
+//  ParallelWorkflowCell2.swift
 //  Workflow_Signing_Diagram
 //
 //  Created by EOO61 on 22/01/22.
@@ -7,12 +7,9 @@
 
 import UIKit
 
-class ParallelWorkflowCell: UITableViewCell {
+class ParallelWorkflowCell2: UITableViewCell {
 
     @IBOutlet weak var statusLabel: UILabel!
-    @IBOutlet weak var topLineView: UIView!
-    @IBOutlet weak var bottomLineView: UIView!
-   
     
     override func awakeFromNib() {
         super.awakeFromNib()
