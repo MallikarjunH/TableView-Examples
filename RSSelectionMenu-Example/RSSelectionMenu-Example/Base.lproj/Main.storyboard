@@ -30,12 +30,44 @@
                                     <action selector="showPopUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rej-8N-Bdu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXC-T8-GP5">
+                                <rect key="frame" x="20" y="762" width="141" height="50"/>
+                                <color key="backgroundColor" red="0.106770508" green="0.23075309399999999" blue="0.48168200249999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="X9r-qA-AqR"/>
+                                    <constraint firstAttribute="height" constant="50" id="lke-dg-U1J"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Corporate"/>
+                                <connections>
+                                    <action selector="corporateSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GCh-3S-S64"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDs-Xe-9Zv">
+                                <rect key="frame" x="253" y="762" width="141" height="50"/>
+                                <color key="backgroundColor" red="0.106770508" green="0.23075309399999999" blue="0.48168200249999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="H2W-xS-tPW"/>
+                                    <constraint firstAttribute="width" constant="141" id="v0O-vF-GaU"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Personal"/>
+                                <connections>
+                                    <action selector="personalSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vk-H6-qYj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="YXC-T8-GP5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0TY-lA-WeI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YXC-T8-GP5" secondAttribute="bottom" constant="50" id="0wP-eM-45B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YDs-Xe-9Zv" secondAttribute="bottom" constant="50" id="80w-9M-HL2"/>
                             <constraint firstItem="4PW-Vu-ni6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="Pe4-BH-pvC"/>
                             <constraint firstItem="4PW-Vu-ni6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SCQ-dY-i94"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YDs-Xe-9Zv" secondAttribute="trailing" constant="20" id="cEo-Us-8hj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="p9E-vB-T6F"/>
