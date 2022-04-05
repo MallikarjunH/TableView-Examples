@@ -63,6 +63,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C15E742C27FC05CD00D133FE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1A6F1CA2653C05E0026DB62 /* AppDelegate.swift */,
+				C1A6F1CC2653C05E0026DB62 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C15E742D27FC063400D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1A6F1CE2653C05E0026DB62 /* ViewController.swift */,
+				C1A6F1E32653C3180026DB62 /* ViewController1.swift */,
+				C1A6F1E62653C3220026DB62 /* ViewController2.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C1A6F1BE2653C05E0026DB62 = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +103,9 @@
 		C1A6F1C92653C05E0026DB62 /* iOSDropdown-RSSelectionMenu */ = {
 			isa = PBXGroup;
 			children = (
-				C1A6F1CA2653C05E0026DB62 /* AppDelegate.swift */,
-				C1A6F1CC2653C05E0026DB62 /* SceneDelegate.swift */,
-				C1A6F1CE2653C05E0026DB62 /* ViewController.swift */,
+				C15E742C27FC05CD00D133FE /* AppDelegate */,
+				C15E742D27FC063400D133FE /* Controllers */,
 				C1A6F1D02653C05E0026DB62 /* Main.storyboard */,
-				C1A6F1E32653C3180026DB62 /* ViewController1.swift */,
-				C1A6F1E62653C3220026DB62 /* ViewController2.swift */,
 				C1A6F1D32653C0610026DB62 /* Assets.xcassets */,
 				C1A6F1D52653C0610026DB62 /* LaunchScreen.storyboard */,
 				C1A6F1D82653C0610026DB62 /* Info.plist */,
