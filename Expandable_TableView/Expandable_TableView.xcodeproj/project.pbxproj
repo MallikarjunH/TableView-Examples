@@ -43,6 +43,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C15E743727FC124700D133FE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7D4C226E1E3C400A15B3E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C15E743827FC125200D133FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7D4DC26E1E52A00A15B3E /* Data.swift */,
+				C1B7D4E226E1EF5500A15B3E /* PaddingLabel.swift */,
+				C1B7D4DF26E1E55A00A15B3E /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C15E743927FC125B00D133FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C15E743A27FC126100D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7D4C626E1E3C400A15B3E /* ViewController.swift */,
+				C1B7D4D926E1E41200A15B3E /* SampleTableViewCell.swift */,
+				C15E743B27FC127C00D133FE /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C15E743B27FC127C00D133FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C1B7D4B626E1E3C400A15B3E = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +104,10 @@
 		C1B7D4C126E1E3C400A15B3E /* Expandable_TableView */ = {
 			isa = PBXGroup;
 			children = (
-				C1B7D4C226E1E3C400A15B3E /* AppDelegate.swift */,
-				C1B7D4C626E1E3C400A15B3E /* ViewController.swift */,
-				C1B7D4D926E1E41200A15B3E /* SampleTableViewCell.swift */,
-				C1B7D4DC26E1E52A00A15B3E /* Data.swift */,
-				C1B7D4DF26E1E55A00A15B3E /* DataModel.swift */,
-				C1B7D4E226E1EF5500A15B3E /* PaddingLabel.swift */,
+				C15E743727FC124700D133FE /* AppDelegate */,
+				C15E743827FC125200D133FE /* Model */,
+				C15E743927FC125B00D133FE /* Views */,
+				C15E743A27FC126100D133FE /* Controllers */,
 				C1B7D4C826E1E3C400A15B3E /* Main.storyboard */,
 				C1B7D4CB26E1E3C600A15B3E /* Assets.xcassets */,
 				C1B7D4CD26E1E3C600A15B3E /* LaunchScreen.storyboard */,

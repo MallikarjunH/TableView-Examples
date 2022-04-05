@@ -60,10 +60,8 @@
 		C13D0B57265BD1020007A496 /* PDFReadderAndThumbnail */ = {
 			isa = PBXGroup;
 			children = (
-				C13D0B58265BD1020007A496 /* AppDelegate.swift */,
-				C13D0B5A265BD1020007A496 /* SceneDelegate.swift */,
-				C13D0B5C265BD1020007A496 /* ViewController.swift */,
-				C1BEA1502660E273004C6BB9 /* ThumbnailTableViewCell.swift */,
+				C15E743027FC0BC800D133FE /* AppDelegate */,
+				C15E743127FC0BFB00D133FE /* Controllers */,
 				C1BEA14D2660DC91004C6BB9 /* SK-traditional-medicine.pdf */,
 				C13D0B5E265BD1020007A496 /* Main.storyboard */,
 				C13D0B61265BD1080007A496 /* Assets.xcassets */,
@@ -71,6 +69,24 @@
 				C13D0B66265BD1080007A496 /* Info.plist */,
 			);
 			path = PDFReadderAndThumbnail;
+			sourceTree = "<group>";
+		};
+		C15E743027FC0BC800D133FE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C13D0B58265BD1020007A496 /* AppDelegate.swift */,
+				C13D0B5A265BD1020007A496 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C15E743127FC0BFB00D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C13D0B5C265BD1020007A496 /* ViewController.swift */,
+				C1BEA1502660E273004C6BB9 /* ThumbnailTableViewCell.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

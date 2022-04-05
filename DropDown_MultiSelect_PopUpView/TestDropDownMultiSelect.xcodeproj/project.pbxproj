@@ -61,6 +61,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C15E742E27FC06E900D133FE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1A6F20D2653D5550026DB62 /* AppDelegate.swift */,
+				C1A6F20F2653D5550026DB62 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C15E742F27FC06F200D133FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1A6F2112653D5550026DB62 /* ViewController.swift */,
+				C1A6F22A2653E1DB0026DB62 /* MultiPickerDialog.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C1A6F2012653D5550026DB62 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +100,8 @@
 		C1A6F20C2653D5550026DB62 /* TestDropDownMultiSelect */ = {
 			isa = PBXGroup;
 			children = (
-				C1A6F20D2653D5550026DB62 /* AppDelegate.swift */,
-				C1A6F20F2653D5550026DB62 /* SceneDelegate.swift */,
-				C1A6F2112653D5550026DB62 /* ViewController.swift */,
-				C1A6F22A2653E1DB0026DB62 /* MultiPickerDialog.swift */,
+				C15E742E27FC06E900D133FE /* AppDelegate */,
+				C15E742F27FC06F200D133FE /* ViewControllers */,
 				C1A6F2132653D5550026DB62 /* Main.storyboard */,
 				C1A6F2162653D5580026DB62 /* Assets.xcassets */,
 				C1A6F2182653D5580026DB62 /* LaunchScreen.storyboard */,

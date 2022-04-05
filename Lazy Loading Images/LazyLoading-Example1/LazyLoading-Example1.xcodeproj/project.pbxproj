@@ -60,17 +60,41 @@
 		C10EF88626F83C6F00FF3CE7 /* LazyLoading-Example1 */ = {
 			isa = PBXGroup;
 			children = (
-				C10EF88726F83C6F00FF3CE7 /* AppDelegate.swift */,
-				C10EF88926F83C6F00FF3CE7 /* SceneDelegate.swift */,
-				C10EF88B26F83C6F00FF3CE7 /* ViewController.swift */,
-				C10EF8A026F8469D00FF3CE7 /* ImageLoader.swift */,
-				C10EF89D26F83DED00FF3CE7 /* ImageTableViewCell.swift */,
+				C15E743C27FC14D900D133FE /* AppSceneDelegate */,
+				C15E743D27FC14E500D133FE /* Controllers */,
+				C15E743E27FC14F200D133FE /* Cells */,
 				C10EF88D26F83C6F00FF3CE7 /* Main.storyboard */,
 				C10EF89026F83C7000FF3CE7 /* Assets.xcassets */,
 				C10EF89226F83C7000FF3CE7 /* LaunchScreen.storyboard */,
 				C10EF89526F83C7000FF3CE7 /* Info.plist */,
 			);
 			path = "LazyLoading-Example1";
+			sourceTree = "<group>";
+		};
+		C15E743C27FC14D900D133FE /* AppSceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C10EF88726F83C6F00FF3CE7 /* AppDelegate.swift */,
+				C10EF88926F83C6F00FF3CE7 /* SceneDelegate.swift */,
+			);
+			path = AppSceneDelegate;
+			sourceTree = "<group>";
+		};
+		C15E743D27FC14E500D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C10EF88B26F83C6F00FF3CE7 /* ViewController.swift */,
+				C10EF8A026F8469D00FF3CE7 /* ImageLoader.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C15E743E27FC14F200D133FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C10EF89D26F83DED00FF3CE7 /* ImageTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

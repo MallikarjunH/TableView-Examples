@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				BF93563F20FFB00B00F76756 /* AppDelegate.swift */,
+				BF93565120FFB5E900F76756 /* StoriesTableViewController.swift */,
 				BF93564320FFB00B00F76756 /* Main.storyboard */,
 				BF93564620FFB00C00F76756 /* Assets.xcassets */,
 				BF93564820FFB00C00F76756 /* LaunchScreen.storyboard */,
 				BF93564B20FFB00C00F76756 /* Info.plist */,
-				BF93565120FFB5E900F76756 /* StoriesTableViewController.swift */,
 			);
 			path = NewspaperExample;
 			sourceTree = "<group>";

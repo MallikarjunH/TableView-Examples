@@ -56,15 +56,39 @@
 		066BE73122CA0502005CE22B /* TableView + ProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				066BE73222CA0502005CE22B /* AppDelegate.swift */,
-				066BE73422CA0503005CE22B /* ViewController.swift */,
-				066BE74422CA0965005CE22B /* TableViewCell.swift */,
+				C15E743227FC0DFC00D133FE /* AppDelegates */,
+				C15E743327FC0E0A00D133FE /* Controllers */,
+				C15E743427FC0E2300D133FE /* Cells */,
 				066BE73622CA0503005CE22B /* Main.storyboard */,
 				066BE73922CA0519005CE22B /* Assets.xcassets */,
 				066BE73B22CA0519005CE22B /* LaunchScreen.storyboard */,
 				066BE73E22CA0519005CE22B /* Info.plist */,
 			);
 			path = "TableView + ProgressView";
+			sourceTree = "<group>";
+		};
+		C15E743227FC0DFC00D133FE /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				066BE73222CA0502005CE22B /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		C15E743327FC0E0A00D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				066BE73422CA0503005CE22B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C15E743427FC0E2300D133FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				066BE74422CA0965005CE22B /* TableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
