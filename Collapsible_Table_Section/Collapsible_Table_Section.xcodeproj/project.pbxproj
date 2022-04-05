@@ -43,6 +43,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C15E743527FC0E5400D133FE /* AppAndSceneDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7D51726E236D000A15B3E /* AppDelegate.swift */,
+				C1B7D51926E236D000A15B3E /* SceneDelegate.swift */,
+			);
+			path = AppAndSceneDelegates;
+			sourceTree = "<group>";
+		};
+		C15E743627FC0E6300D133FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1B7D51B26E236D000A15B3E /* ViewController.swift */,
+				C1B7D53026E2397A00A15B3E /* HeaderTableViewCell.swift */,
+				C1B7D53426E23C6500A15B3E /* ProfileDetailsTableViewCell.swift */,
+				C1B7D53726E23C7600A15B3E /* SigningOrderTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C1B7D50B26E236D000A15B3E = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +82,8 @@
 		C1B7D51626E236D000A15B3E /* Collapsible_Table_Section */ = {
 			isa = PBXGroup;
 			children = (
-				C1B7D51726E236D000A15B3E /* AppDelegate.swift */,
-				C1B7D51926E236D000A15B3E /* SceneDelegate.swift */,
-				C1B7D51B26E236D000A15B3E /* ViewController.swift */,
-				C1B7D53026E2397A00A15B3E /* HeaderTableViewCell.swift */,
-				C1B7D53426E23C6500A15B3E /* ProfileDetailsTableViewCell.swift */,
-				C1B7D53726E23C7600A15B3E /* SigningOrderTableViewCell.swift */,
+				C15E743527FC0E5400D133FE /* AppAndSceneDelegates */,
+				C15E743627FC0E6300D133FE /* Controllers */,
 				C1B7D51D26E236D000A15B3E /* Main.storyboard */,
 				C1B7D52026E236D300A15B3E /* Assets.xcassets */,
 				C1B7D52226E236D300A15B3E /* LaunchScreen.storyboard */,
