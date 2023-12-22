@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="joW-YZ-6KQ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FSMatthew-Medium.otf">
+            <string>FSMatthewTrial-Medium</string>
+        </array>
+        <array key="FSMatthew-Regular.ttf">
+            <string>FSMatthew</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MultipleFields_AllowEdit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dV-rW-rsn">
+                                <rect key="frame" x="15" y="763" width="363" height="45"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Kvn-PX-PeM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FSMatthewTrial-Medium" family="FS Matthew Trial" pointSize="16"/>
+                                <state key="normal" title="Fill The Data">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="navigateToFillDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbu-C3-6Oz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8dV-rW-rsn" secondAttribute="bottom" constant="10" id="PzK-ZU-8oy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8dV-rW-rsn" secondAttribute="trailing" constant="15" id="ea8-5v-2GH"/>
+                            <constraint firstItem="8dV-rW-rsn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="nvn-rP-u7g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="t9j-na-GgZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901.52671755725191" y="3.5211267605633805"/>
+        </scene>
+        <!--Fill DetailsVC-->
+        <scene sceneID="1pJ-fY-1H2">
+            <objects>
+                <viewController storyboardIdentifier="FillDetailsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uUH-2K-gTb" customClass="FillDetailsVC" customModule="MultipleFields_AllowEdit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qWO-D0-LVY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fill The Mandatory Details *" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7L-ud-Bwm">
+                                <rect key="frame" x="20" y="56" width="189" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="2rt-xb-XHg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1xx-HT-Mjz">
+                                <rect key="frame" x="0.0" y="84" width="393" height="679"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextFieldCell" rowHeight="104" id="gT6-GI-AHu" customClass="TextFieldCell" customModule="MultipleFields_AllowEdit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gT6-GI-AHu" id="Ewx-pn-a6W">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="104"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="84b-gt-Yf3" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                                    <rect key="frame" x="20" y="16" width="353" height="72"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="334" id="iqF-FV-zul"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="FSMatthew" family="FS Matthew" pointSize="15"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                            <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                            <integer key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="84b-gt-Yf3" firstAttribute="leading" secondItem="Ewx-pn-a6W" secondAttribute="leadingMargin" id="1hw-MI-rrp"/>
+                                                <constraint firstItem="84b-gt-Yf3" firstAttribute="top" secondItem="Ewx-pn-a6W" secondAttribute="topMargin" constant="5" id="3WS-Id-f0O"/>
+                                                <constraint firstItem="84b-gt-Yf3" firstAttribute="centerY" secondItem="Ewx-pn-a6W" secondAttribute="centerY" id="862-hT-lfJ"/>
+                                                <constraint firstItem="84b-gt-Yf3" firstAttribute="leading" secondItem="Ewx-pn-a6W" secondAttribute="leadingMargin" id="9bt-Z0-hSb"/>
+                                                <constraint firstItem="84b-gt-Yf3" firstAttribute="trailing" secondItem="Ewx-pn-a6W" secondAttribute="trailingMargin" id="LEc-Ot-owR"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="formTextfield" destination="84b-gt-Yf3" id="8No-hh-SCV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckBoxCell" id="sHb-zF-3LI" customClass="CheckBoxCell" customModule="MultipleFields_AllowEdit" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="154" width="393" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sHb-zF-3LI" id="fs3-V2-OyZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="wjn-TR-XPD">
+                                                    <rect key="frame" x="25" y="7" width="26" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="26" id="E9l-76-f7a"/>
+                                                        <constraint firstAttribute="width" constant="26" id="q0U-cc-Fv4"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wjn-TR-XPD" firstAttribute="leading" secondItem="fs3-V2-OyZ" secondAttribute="leading" constant="25" id="OcD-qS-dLG"/>
+                                                <constraint firstItem="wjn-TR-XPD" firstAttribute="top" secondItem="fs3-V2-OyZ" secondAttribute="top" constant="7" id="zQb-Gu-4O7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="checkBoxImg" destination="wjn-TR-XPD" id="ZkU-wX-Cgr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="uUH-2K-gTb" id="KHR-PE-WDV"/>
+                                    <outlet property="delegate" destination="uUH-2K-gTb" id="llX-cI-Xii"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUt-ad-6x5">
+                                <rect key="frame" x="15" y="773" width="362" height="45"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="zE5-IQ-H6z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FSMatthewTrial-Medium" family="FS Matthew Trial" pointSize="16"/>
+                                <state key="normal" title="SEND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="x2M-gN-I0U"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1xx-HT-Mjz" firstAttribute="top" secondItem="x2M-gN-I0U" secondAttribute="top" constant="25" id="5hz-5B-bGr"/>
+                            <constraint firstAttribute="trailing" secondItem="1xx-HT-Mjz" secondAttribute="trailing" id="AMD-c2-zmL"/>
+                            <constraint firstItem="CUt-ad-6x5" firstAttribute="leading" secondItem="x2M-gN-I0U" secondAttribute="leading" constant="15" id="DEa-ph-AR0"/>
+                            <constraint firstItem="CUt-ad-6x5" firstAttribute="top" secondItem="1xx-HT-Mjz" secondAttribute="bottom" constant="10" id="SMZ-tS-P9d"/>
+                            <constraint firstItem="O7L-ud-Bwm" firstAttribute="top" secondItem="qWO-D0-LVY" secondAttribute="top" constant="56" id="WGE-rW-etm"/>
+                            <constraint firstItem="CUt-ad-6x5" firstAttribute="bottom" secondItem="x2M-gN-I0U" secondAttribute="bottom" id="b6C-Rs-uUp"/>
+                            <constraint firstItem="1xx-HT-Mjz" firstAttribute="leading" secondItem="x2M-gN-I0U" secondAttribute="leading" id="ekE-bb-QNr"/>
+                            <constraint firstItem="x2M-gN-I0U" firstAttribute="trailing" secondItem="CUt-ad-6x5" secondAttribute="trailing" constant="16" id="fGy-Rc-hNy"/>
+                            <constraint firstItem="O7L-ud-Bwm" firstAttribute="leading" secondItem="x2M-gN-I0U" secondAttribute="leading" constant="20" id="kHX-L0-my3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fillTableView" destination="1xx-HT-Mjz" id="te5-mE-NUj"/>
+                        <outlet property="signButton" destination="CUt-ad-6x5" id="KR0-dp-oCh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xh7-96-na3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799.2366412213739" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4cd-6D-FeI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="joW-YZ-6KQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XfM-nj-RlV">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ftV-wM-wmF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agR-Tn-Si4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25.190839694656489" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="uncheck" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
