@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28D1AB2B-A1C1-4C82-8571-9181B808EC64"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB0FFF76-F4D1-489A-8E4B-EDA1977A8590"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MultipleFields_AllowEdit/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "updateTheFieldsDictionary(fieldName:emailValue:tagValue:enteredValue:checkBoxChecked:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB0FFF76-F4D1-489A-8E4B-EDA1977A8590 - b48cfbc3e08fec24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MultipleFields_AllowEdit.ViewController.updateTheFieldsDictionary(fieldName: Swift.String, emailValue: Swift.String, tagValue: Swift.Int, enteredValue: Swift.String, checkBoxChecked: Swift.Bool) -&gt; ()"
+                  moduleName = "MultipleFields_AllowEdit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoo61/Desktop/Test/MultipleFields_AllowEdit/MultipleFields_AllowEdit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "4492">
+               </Location>
+               <Location
+                  uuid = "DB0FFF76-F4D1-489A-8E4B-EDA1977A8590 - b48cfbc3e08fec24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MultipleFields_AllowEdit.ViewController.updateTheFieldsDictionary(fieldName: Swift.String, emailValue: Swift.String, tagValue: Swift.Int, enteredValue: Swift.String, checkBoxChecked: Swift.Bool) -&gt; ()"
+                  moduleName = "MultipleFields_AllowEdit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoo61/Desktop/Test/MultipleFields_AllowEdit/MultipleFields_AllowEdit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "3599">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
