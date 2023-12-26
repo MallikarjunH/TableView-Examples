@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BCB087F935110E8C08F2F5B /* Pods_MultipleFields_AllowEdit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6554ED109EFE8D635BA67531 /* Pods_MultipleFields_AllowEdit.framework */; };
 		C1908B3E2B354EB800491B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1908B3D2B354EB800491B0A /* AppDelegate.swift */; };
 		C1908B402B354EB800491B0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1908B3F2B354EB800491B0A /* SceneDelegate.swift */; };
 		C1908B422B354EB800491B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1908B412B354EB800491B0A /* ViewController.swift */; };
@@ -19,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2077D4D34E8867B4A72EEDB7 /* Pods-MultipleFields_AllowEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleFields_AllowEdit.release.xcconfig"; path = "Target Support Files/Pods-MultipleFields_AllowEdit/Pods-MultipleFields_AllowEdit.release.xcconfig"; sourceTree = "<group>"; };
+		6554ED109EFE8D635BA67531 /* Pods_MultipleFields_AllowEdit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultipleFields_AllowEdit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B47150C97C5320AF1EE0E4 /* Pods-MultipleFields_AllowEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleFields_AllowEdit.debug.xcconfig"; path = "Target Support Files/Pods-MultipleFields_AllowEdit/Pods-MultipleFields_AllowEdit.debug.xcconfig"; sourceTree = "<group>"; };
 		C1908B3A2B354EB800491B0A /* MultipleFields_AllowEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleFields_AllowEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1908B3D2B354EB800491B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1908B3F2B354EB800491B0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCB087F935110E8C08F2F5B /* Pods_MultipleFields_AllowEdit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0909FC955245478AA9F1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B47150C97C5320AF1EE0E4 /* Pods-MultipleFields_AllowEdit.debug.xcconfig */,
+				2077D4D34E8867B4A72EEDB7 /* Pods-MultipleFields_AllowEdit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		866C6484E4719F4CF98BDE0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6554ED109EFE8D635BA67531 /* Pods_MultipleFields_AllowEdit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1908B312B354EB800491B0A = {
 			isa = PBXGroup;
 			children = (
 				C1908B3C2B354EB800491B0A /* MultipleFields_AllowEdit */,
 				C1908B3B2B354EB800491B0A /* Products */,
+				0B0909FC955245478AA9F1D6 /* Pods */,
+				866C6484E4719F4CF98BDE0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1908B4E2B354EC000491B0A /* Build configuration list for PBXNativeTarget "MultipleFields_AllowEdit" */;
 			buildPhases = (
+				1746F2C79AE2CCC1ABE405F4 /* [CP] Check Pods Manifest.lock */,
 				C1908B362B354EB800491B0A /* Sources */,
 				C1908B372B354EB800491B0A /* Frameworks */,
 				C1908B382B354EB800491B0A /* Resources */,
+				D0446D2A062C41F6CF026B61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,7 +138,7 @@
 				};
 			};
 			buildConfigurationList = C1908B352B354EB800491B0A /* Build configuration list for PBXProject "MultipleFields_AllowEdit" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1746F2C79AE2CCC1ABE405F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultipleFields_AllowEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0446D2A062C41F6CF026B61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultipleFields_AllowEdit/Pods-MultipleFields_AllowEdit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultipleFields_AllowEdit/Pods-MultipleFields_AllowEdit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultipleFields_AllowEdit/Pods-MultipleFields_AllowEdit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1908B362B354EB800491B0A /* Sources */ = {
@@ -294,6 +362,7 @@
 		};
 		C1908B4F2B354EC000491B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B47150C97C5320AF1EE0E4 /* Pods-MultipleFields_AllowEdit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +395,7 @@
 		};
 		C1908B502B354EC000491B0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2077D4D34E8867B4A72EEDB7 /* Pods-MultipleFields_AllowEdit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +409,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

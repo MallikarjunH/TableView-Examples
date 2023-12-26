@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DB0FFF76-F4D1-489A-8E4B-EDA1977A8590"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MultipleFields_AllowEdit/ViewController.swift"
@@ -47,6 +47,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "222"
                   endingLineNumber = "222"
+                  offsetFromSymbolStart = "3599">
+               </Location>
+               <Location
+                  uuid = "DB0FFF76-F4D1-489A-8E4B-EDA1977A8590 - b48cfbc3e08fec49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MultipleFields_AllowEdit.ViewController.updateTheFieldsDictionary(fieldName: Swift.String, emailValue: Swift.String, tagValue: Swift.Int, enteredValue: Swift.String, checkBoxChecked: Swift.Bool) -&gt; ()"
+                  moduleName = "MultipleFields_AllowEdit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eoo61/Desktop/Test/MultipleFields_AllowEdit/MultipleFields_AllowEdit/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
                   offsetFromSymbolStart = "3599">
                </Location>
             </Locations>

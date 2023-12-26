@@ -1,0 +1,6 @@
+framework module Pods_MultipleFields_AllowEdit {
+  umbrella header "Pods-MultipleFields_AllowEdit-umbrella.h"
+
+  export *
+  module * { export * }
+}

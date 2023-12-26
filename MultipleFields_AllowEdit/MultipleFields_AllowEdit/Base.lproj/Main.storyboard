@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="joW-YZ-6KQ">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -255,8 +256,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="uUH-2K-gTb" id="KHR-PE-WDV"/>
-                                    <outlet property="delegate" destination="uUH-2K-gTb" id="llX-cI-Xii"/>
+                                    <outlet property="dataSource" destination="uUH-2K-gTb" id="r8X-Rt-EwW"/>
+                                    <outlet property="delegate" destination="uUH-2K-gTb" id="Mao-33-l9H"/>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUt-ad-6x5">
@@ -289,7 +290,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="fillTableView" destination="1xx-HT-Mjz" id="te5-mE-NUj"/>
+                        <outlet property="fillTableView" destination="1xx-HT-Mjz" id="8Mj-tX-oj7"/>
                         <outlet property="signButton" destination="CUt-ad-6x5" id="KR0-dp-oCh"/>
                     </connections>
                 </viewController>
@@ -316,6 +317,11 @@
             <point key="canvasLocation" x="-25.190839694656489" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="84b-gt-Yf3">
+            <size key="intrinsicContentSize" width="51" height="24.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
         <image name="uncheck" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
