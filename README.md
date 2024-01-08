@@ -42,3 +42,10 @@
 
 ![RSSelectionMenu-Example](https://user-images.githubusercontent.com/27955299/161695148-3bba04d4-fc70-43d6-9819-080598206e50.gif)
 
+##Example 12 - Tableview Allow Multiple Selection with Custom tableview cell
+![TableviewAllowMultipleSelection](https://github.com/MallikarjunH/TableView-Examples/assets/27955299/2439d52d-57b8-4405-abe3-a3b7068367e5)
+
+##Example 13 - Dynamic Form Creating and Filling
+![DynamicFormCreatingAndFilling](https://github.com/MallikarjunH/TableView-Examples/assets/27955299/e2701a66-d4b6-4e53-b451-550478244b6d)
+
+
